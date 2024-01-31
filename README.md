@@ -9,7 +9,7 @@ cd frontend
 npm install
 ```
 ```
-cd backend
+cd TodoBackend
 npm install
 ```
 # Configuration
