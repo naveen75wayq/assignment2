@@ -1,9 +1,11 @@
 # Installation
 Run the following command to clone the repository
-# Frontend link
+# Frontend repo
 ```
 https://github.com/naveen75wayq/frontend.git
 ```
+
+# Backend repo
 ```
 git clone https://github.com/naveen75wayq/assignment2.git
 ```
