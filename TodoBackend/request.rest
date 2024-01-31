@@ -1,0 +1,37 @@
+POST http://localhost:8000/addTask
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YmEzY2ZiMWUwNmMwNzQ0MDNmNTg4NCIsImlhdCI6MTcwNjcwNTQ1NSwiZXhwIjoxNzA2OTY0NjU1fQ.SK3Z6QoOR0rITq5EICko97FOxPSurQNOSomvwlUpXF8
+
+{
+    "title": "test3",
+    "deadLine": "2024-12-01",
+    "description": "this is a test"
+    
+}
+
+### signup
+POST http://localhost:8000/auth/signup
+Content-Type: application/json
+
+{
+    "username":"test",
+    "password":"test123",
+    "email":"sadhkullu2@gmail.com"
+}
+
+### login
+POST http://localhost:8000/auth/signin
+Content-Type: application/json
+
+{
+    "email":"nknthakur@gmail.com",
+    "password":"test123"
+}
+
+### getuser
+GET http://localhost:8000/getuser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YmEzY2ZiMWUwNmMwNzQ0MDNmNTg4NCIsImlhdCI6MTcwNjcwNTQ1NSwiZXhwIjoxNzA2OTY0NjU1fQ.SK3Z6QoOR0rITq5EICko97FOxPSurQNOSomvwlUpXF8
+###
+
+GET http://localhost:8000/getTask
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YmEzY2ZiMWUwNmMwNzQ0MDNmNTg4NCIsImlhdCI6MTcwNjcwNTQ1NSwiZXhwIjoxNzA2OTY0NjU1fQ.SK3Z6QoOR0rITq5EICko97FOxPSurQNOSomvwlUpXF8
