@@ -24,8 +24,8 @@ app.use(express.json());
 app.use(cors());
 
 //route
-app.use('/',taskRouter,userRouter)
-app.use('/auth', authRouter)
+app.use('/',taskRouter,userRouter,authRouter)
+
 
 
 app.listen(port, () => {
